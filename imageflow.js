@@ -701,6 +701,7 @@ function ImageFlow ()
 		// affinity customization
 		jQuery('#customshow-breakout').hide();
 		jQuery('#customshow-breakout').fadeIn('slow').html(Drupal.settings.customshow[imageID]);
+		Drupal.attachBehaviors(jQuery('#customshow-breakout'));
 		// end affinity customization
 
 		/* Set scrollbar slider to new position */
